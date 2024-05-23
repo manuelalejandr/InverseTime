@@ -136,10 +136,10 @@ def shuffle_along_axis(a, axis):
     idx = np.random.rand(*a.shape).argsort(axis=axis)
     return np.take_along_axis(a,idx,axis=axis)
 
-x_flip = shuffle_along_axis(x, 1)
+#x_flip = shuffle_along_axis(x, 1)
 
 
-#x_flip = np.flip(x,1)
+x_flip = np.flip(x,1)
 
 
 y_fake_ceros = np.zeros(shape=(len(x),1))
