@@ -1,4 +1,4 @@
-# ClustersDistillation
+# _InverseTime
 
 _InverseTime: A self-supervised technique for semi-supervised classification of time series_
 
